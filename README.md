@@ -61,7 +61,6 @@ A full-stack application demonstrating high-performance data handling with 100,0
 
 - **API Response Times**: <100ms (with caching)
 - **Initial Page Load**: <2 seconds
-- **Virtual Scrolling**: Smooth 60fps
 - **Search Response**: <300ms (debounced)
 - **Memory Usage**: Optimized for large datasets
 
