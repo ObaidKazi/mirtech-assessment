@@ -114,6 +114,13 @@ A full-stack application demonstrating high-performance data handling with 100,0
    npm install
    npm run dev
    ```
+3. The application is containerized and you can run via docker also:
+
+```bash
+# Command
+docker-compose up -d
+
+```
 
 ### Database Management
 
@@ -128,17 +135,6 @@ A full-stack application demonstrating high-performance data handling with 100,0
 - Redis cache hit/miss rates
 - Frontend performance via browser dev tools
 
-## 🚀 Deployment
-
-The application is containerized and ready for production deployment:
-
-```bash
-# Production build
-docker-compose -f docker-compose.prod.yml up --build
-
-# Scale services
-docker-compose up --scale backend=3
-```
 
 ## 🔮 Future Improvements
 
@@ -149,18 +145,15 @@ With more time, I would implement:
 - CDN integration for static assets
 - Server-side rendering optimization
 - Advanced caching strategies (cache warming, intelligent invalidation)
-- Database query result streaming for extremely large datasets
 
 **Feature Additions**:
-- Real-time updates using WebSockets
 - Advanced filtering with date ranges and complex queries
 - Export functionality (CSV, Excel, PDF)
 - User authentication and role-based access
 - Audit logging for data changes
 - Advanced analytics and reporting dashboard
 - Mobile-optimized responsive design
-- Offline support with service workers
-
+  
 The current implementation demonstrates solid architectural foundations that would support these enhancements while maintaining the high-performance characteristics required for large-scale data applications.
 
 ## 📝 License
