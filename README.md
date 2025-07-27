@@ -38,7 +38,7 @@ A full-stack application demonstrating high-performance data handling with 100,0
 1. **Clone and setup**:
    ```bash
    git clone <repository-url>
-   cd high-performance-datatable
+   cd mirtech-assessment
    ```
 
 2. **Start the application**:
@@ -50,6 +50,7 @@ A full-stack application demonstrating high-performance data handling with 100,0
    ```bash
    curl -X POST http://localhost:8000/seed-data
    ```
+   or you can directly open frontend and click the button for seeding sample data
 
 4. **Access the application**:
    - Frontend: http://localhost:3000
